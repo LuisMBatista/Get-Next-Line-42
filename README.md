@@ -23,8 +23,14 @@ The program includes both standard and bonus versions, with the bonus version ha
 
 ## Usage
 
-1. **Compile the Program**
+
+To use `libgetnext.a`, clone the repository 
+```sh
+git clone https://github.com/LuisMBatista/Get-Next-Line-42.git
+```
 
    Use the following command to compile the program:
    ```sh
-   gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c -o get_next_line
+   make 
+   ```
+
